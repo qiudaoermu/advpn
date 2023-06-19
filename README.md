@@ -13,7 +13,17 @@ The official site of AdvanceCOMP is:
     http://www.advancemame.it
 
 This package contains:
-    advzip - Recompression and test utility for zip files
-    advpng - Recompression utility for png files
-    advmng - Recompression utility for mng files
-    advdef - Recompression utility for deflate streams in .png, .mng and .gz files
+
+advzip - Recompression and test utility for zip files
+
+advpng - Recompression utility for png files
+
+advmng - Recompression utility for mng files
+
+advdef - Recompression utility for deflate streams in .png, .mng and .gz files
+
+## build
+
+```
+ ./configure & make -j3 & sudo make install
+```
